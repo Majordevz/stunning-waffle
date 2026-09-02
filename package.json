@@ -1,0 +1,21 @@
+{
+  "name": "stunning-waffle",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Majordevz/stunning-waffle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Majordevz/stunning-waffle/issues"
+  },
+  "homepage": "https://github.com/Majordevz/stunning-waffle#readme",
+  "description": ""
+}
