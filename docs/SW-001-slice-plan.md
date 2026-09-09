@@ -20,7 +20,7 @@ A teammate can verify this by running Blacksmith with a name, such as `Korede`, 
 
 ## Boundary case
 
-If no name is provided, Blacksmith will print an error message instead of producing a greeting.
+If no name is provided, Blacksmith will print `Error: name is required.` and exit without producing a greeting.
 
 ## Deliberately out
 
