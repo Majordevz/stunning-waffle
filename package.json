@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js"
-  },
+  "build": "tsc",
+  "start": "npm run build && node dist/index.js",
+  "test": "npm run build && node --test test/blacksmith.test.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Majordevz/stunning-waffle.git"

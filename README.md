@@ -1,26 +1,13 @@
-\# Stunning Waffle
+# Stunning Waffle
 
+Blacksmith is a small TypeScript command-line program.
 
+## Requirements
 
-Initial TypeScript scaffold for the Blacksmith project.
+- Node.js 22+
+- npm 10+
 
-
-
-\## Requirements
-
-
-
-\- Node.js 22+
-
-\- npm 10+
-
-
-
-\## Install
-
-
+## Install
 
 ```bash
-
 npm install
-
