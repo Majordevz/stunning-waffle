@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-  "build": "tsc",
-  "start": "npm run build && node dist/index.js",
-  "test": "npm run build && node --test test/blacksmith.test.js"
-},
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "npm run build && node --test test/blacksmith.test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Majordevz/stunning-waffle.git"
@@ -18,5 +18,8 @@
     "url": "https://github.com/Majordevz/stunning-waffle/issues"
   },
   "homepage": "https://github.com/Majordevz/stunning-waffle#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
 }
