@@ -11,3 +11,4 @@ const boundary = spawnSync("node", ["dist/index.js"], { encoding: "utf8" });
 
 assert.equal(boundary.status, 1);
 assert.equal(boundary.stderr, "Error: name is required.\n");
+assert.equal(boundary.stdout, "");
